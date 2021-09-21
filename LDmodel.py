@@ -36,7 +36,7 @@ class LDM():
         self.model = model
 
         # define the constants
-        c = 2.99792458E+09 # speed of light in (meters/sec)
+        c = 2.99792458e+08 # speed of light in (meters/sec)
         angFreq = 2*np.pi*c/self.wavelength; # angular frequency of the incident light (rad/sec)
         e = 1.69e-19 # mass of electron 
         hbar = 1.0545718e-34 # in m^2kg/sec
